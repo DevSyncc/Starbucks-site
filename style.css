@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #ccc;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 70px;
+    padding-left: 100px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.imagem {
+    width: 350px;
+}
+
+.textos {
+    width: 600px;
+    padding-right: 2px;
+}
+
+h1 {
+    color: #333;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+span {
+    color: #036635;
+    font-size: 70px;
+    font-weight: 650;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+span:hover {
+    color: #02311a;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+button {
+    background: #036635;
+    color: #ccc;
+    border: none;
+    border-radius: 100px;
+    padding: 13px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+button:hover {
+    background: #02311a;
+}
+p{
+    font-size: 20px;
+    font-style: bold;
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.botao-menu {
+    width: 80px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.botao-menu:hover {
+    transform: translateY(-50px);
+}
+
+.imagem-copo{
+    width: 370px;
+}
+
+.circulo{
+    background: #036635;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 550px);
+    z-index: -1;
+}
